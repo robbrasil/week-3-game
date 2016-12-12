@@ -1,0 +1,32 @@
+body{
+    background-image: url(../images/flagsbackground.jpeg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    
+}
+.letter{
+    width: 5px;
+    border-bottom: 2px solid black;
+    padding: 0px 15px 0px 15px;
+    margin: 0px 10px 0px 10px;
+}
+.space{
+    margin: 0px 10px 0px 10px;
+    border-bottom: 0px!important;
+}
+#winLabel{
+    color: green;
+    font-weight: 600;
+}
+ 
+.panel{
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+.jumbotron,.panel{
+    opacity: .95;
+}
+#winLabel{
+    
+}

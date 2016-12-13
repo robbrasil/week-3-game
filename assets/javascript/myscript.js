@@ -5,6 +5,7 @@
      var keyArray = [];
      var imNotEqualAgain = false;
      var wins = 0;
+     var losses = 0;
      var score = true;
      $("#guessesRemaining").text(guessesLeft);
    
@@ -103,7 +104,10 @@
             $("#wonLost").addClass("panel-danger");
             $("#currentWord").html(country);
             $("#lost").html("You Lost! Press Enter to play again.");
-           
+           losses++;
+            console.log(losses)
+             $("#losses").html(losses);
+        
                    $(document).keypress(function(e) {
     if(e.which == 13) {
         reload();

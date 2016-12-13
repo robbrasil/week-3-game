@@ -3,7 +3,9 @@ body{
     background-repeat: no-repeat;
     background-position: right top;
     background-attachment: fixed;
-    
+    }
+h1{
+    font-size: 20px;
 }
 .letter{
     width: 5px;
@@ -15,11 +17,13 @@ body{
     margin: 0px 10px 0px 10px;
     border-bottom: 0px!important;
 }
-#winLabel{
+#winLabel, #wins{
     color: green;
     font-weight: 600;
 }
- 
+#lostLabel, #losses{
+    color: red;
+}
 .panel{
     margin-top: 0px;
     margin-bottom: 15px;
